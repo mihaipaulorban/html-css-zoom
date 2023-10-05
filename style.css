@@ -84,6 +84,54 @@ FOOTER
 */
 
 footer {
-    background-color: green;
+    background-color: rgb(60, 60, 60);
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+
+.footer-container,
+.buttons-section,
+.end-call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons-section {
+    margin: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button-text {
+    font-size: 12px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.arrow {
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+.fa-share-from-square {
+    color: rgb(0, 170, 0);
+}
+
+.end-call {
+    background-color: gray;
+    color: red;
+    height: 100%;
+    padding: 0 20px;
+
 }
