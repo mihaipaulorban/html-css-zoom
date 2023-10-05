@@ -22,9 +22,40 @@ MAIN
 */
 
 main {
-    background-color: blue;
+    background-color: rgb(25, 25, 25);
     height: calc(100vh - 130px);
+    overflow-y: scroll;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.cam{
+    border-radius: 5px;
+}
+
+.cam-box {
+    display: flex;
+    height: auto;
+    position: relative;
+    margin: 5px;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.313);
+    color: white;
+    padding: 5px 10px;
+}
+
 
 /* 
 FOOTER
